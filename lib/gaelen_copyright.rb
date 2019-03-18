@@ -1,4 +1,11 @@
 require "gaelen_copyright/version"
-require "./renderer"
+
+module GaelenCopyright
+ class Renderer
+   def self.copyright name, msg
+     "&copy; #{Time.now.year} | <b>#{name}</b> #{msg}".html_safe
+   end
+ end
+end
 
 
