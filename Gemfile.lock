@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gaelen_copyright (0.1.0)
+    gaelen_copyright (1.0.0)
 
 GEM
   remote: https://rubygems.org/
